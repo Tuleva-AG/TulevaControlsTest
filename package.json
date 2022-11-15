@@ -1,7 +1,7 @@
 {
-  "name": "tuleva-component",
+  "name": "@Tuleva-AG/TulevaControlsTest",
   "version": "0.0.1",
-  "description": "",
+  "description": "TulevaControlsTest",
   "scripts": {
     "rollup": "rollup -c"
   },
@@ -33,5 +33,8 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "type": "module"
+  "type": "module",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/Tuleva-AG"
+  }
 }
