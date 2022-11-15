@@ -1,0 +1,513 @@
+{
+  "pageHeader": {
+    "helpTooltip": "Hilfe anzeigen"
+  },
+  "activeProjects": {
+    "title": "Meine aktiven Projekte"
+  },
+  "weekWork": {
+    "title": "Meine Stunden diese Woche"
+  },
+  "diagramColumn": {
+    "title": "Buchungsdashboard"
+  },
+  "mainMenu": {
+    "erfassen": "Erfassen",
+    "freigabe": "Freigabe",
+    "abschluss": "Abschluss",
+    "stundennachweis": "Stundennachweis",
+    "buchungsuebersicht": "Buchungsübersicht",
+    "jahresuebersicht": "Jahresübersicht",
+    "projektuebersicht": "Projektübersicht",
+    "projekte": "Projekte",
+    "arbeitspakete": "Arbeitspakete",
+    "abteilungen": "Abteilungen",
+    "meinTeam": "Mein Team",
+    "einstellungen": "Einstellungen",
+    "mitarbeiteruebersicht": "Mitarbeiterübersicht",
+    "news": "News",
+    "hilfe": "Hilfe",
+    "helpAdmin": "Hilfetexte",
+    "provision": "Provision",
+    "mitarbeiterprojekte":"Mitarbeiterprojekte"
+
+  },
+  "userSettingsEditor": {
+    "wochenstunden": "Wochenstunden",
+    "bundesland": "Bundesland des Hauptbeschäftigungsortes",
+    "language": "Sprache",
+    "ja": "Ja",
+    "nein": "Nein"
+  },
+  "approvalsPage": {
+    "buchungFreigegeben": "Buchung freigegeben...",
+    "buchungenFreigegeben": "Buchungen freigegeben...",
+    "datum": "Datum",
+    "mitarbeiter": "Mitarbeiter",
+    "buchungGeloscht": "Buchung gelöscht...",
+    "projektArbeitspaket": "Projekt/Arbeitspaket",
+    "beschreibung": "Beschreibung",
+    "alleBuchungenFreigeben": "Alle Buchungen freigeben?",
+    "ja": "Ja",
+    "nein": "Nein",
+    "alleFreigeben": "Alle freigeben",
+    "freigabe": "Freigabe",
+    "projekt": "Projekt",
+    "showAll": "Alle",
+    "showLastMonth": "Letzter Monat",
+    "dauer": "Stunden",
+    "freigabeLetzterMonat": "Freigabe letzter Monat",
+    "SwitchTooltip": "Alle anzeigen oder nur aus dem letzten Monat"
+  },
+  "closuresPage": {
+    "mitarbeiter": "Mitarbeiter",
+    "status": "Status",
+    "open": "Offen",
+    "closed": "Abgeschlossen",
+    "completed": "Abgerechnet",
+    "bemerkung": "Bemerkung",
+    "approvals": "Freigaben",
+    "caption": "Abschluss",
+    "showBilled": "Abgerechnete einblenden",
+    "bookingCompleted": "Abschluß gespeichert.",
+    "confirmMessage": "Monat auf abgerechnet setzen?",
+    "abgeschlossene": "Abgeschlossene",
+    "abgerechnete": "Abgerechnete",
+    "alle": "Alle",
+    "reOpenMonth": "Monat wieder öffnen?"
+  },
+  "commissionPage":{
+    "title": "Provision",
+    "subline": "Über den Provisionsrechner besteht die Möglichkeit, die vorläufige Umsatzprovision auf Basis der Buchungen zu ermittelt. Diese kann von der tatsächlichen Umsatzprovision abweichen.",
+    "filter": "Filter",
+    "auswertungszeitraum": "Auswertungszeitraum",
+    "projectWorkItem": "Projekt / Arbeitspaket",
+    "houryRate": "Stundensatz",
+    "duration" :"Dauer in Stunden",
+    "sum": "Summe",
+    "grossSalary": "Buttogehalt",
+    "factor": "Provisionsfaktor",
+    "additionalSalary": "Brutto Provision"
+  },
+  "departmentEditor": {
+    "gruppe": "Gruppe",
+    "besitzer": "Besitzer",
+    "abteilungGeloscht": "Abteilung gelöscht...",
+    "abteilungGespeichert": "Abteilung gespeichert...",
+    "abteilungen": "Abteilungen"
+  },
+  "departmentPage": {
+    "abteilungGespeichert": "Abteilung gespeichert...",
+    "abteilungGeloscht": "Abteilung gelöscht...",
+    "abteilungen": "Abteilungen",
+    "besitzer": "Besitzer"
+  },
+  "newsEditor": {
+    "veroffentlichung": "Veröffentlichung",
+    "titel": "Titel",
+    "text": "Text"
+  },
+  "newsPage": {
+    "newsGespeichert": "News gespeichert...",
+    "newsGeloscht": "News gelöscht...",
+    "veroffentlichung": "Veröffentlichung",
+    "titel": "Titel",
+    "news": "News"
+  },
+  "helpEditor": {
+    "titel": "Titel",
+    "topic": "Topic",
+    "language": "Sprache",
+    "text": "Text",
+    "edit": "Bearbeiten",
+    "german": "Deutsch",
+    "english": "Englisch"
+  },
+  "helpAdminPage": {
+    "helpGespeichert": "Topic gespeichert...",
+    "helpGeloscht": "Topic gelöscht...",
+    "topic": "Topic",
+    "titel": "Titel",
+    "language": "Sprache",
+    "caption": "Hilfetexte"
+  },
+  "projectEditor": {
+    "projektname": "Projektname",
+    "kunde": "Kunde",
+    "projektleiter": "Projektleiter",
+    "projekttyp": "Projekttyp",
+    "volumen": "Volumen",
+    "externeReferenz": "Externe Referenz",
+    "zeitraum": "Zeitraum",
+    "neuesProjekt": "Neues Projekt"
+  },
+  "projectPage": {
+    "projektGespeichert": "Projekt gespeichert...",
+    "projektGeloscht": "Projekt gelöscht...",
+    "projektLoschenFehler": "Projekt kann nicht gelöscht werden, es gibt noch Buchungen.",
+    "kunde": "Kunde",
+    "projekttyp": "Projekttyp",
+    "zeitraum": "Zeitraum",
+    "projekte": "Projekte",
+    "projekt": "Projekt",
+    "showAll": "Alle",
+    "showActive": "Aktive",
+    "closureAbbrechen": "Abbrechen",
+    "closureAbgerechnet": "Abgerechnet",
+    "closureAbgeschlossen": "Abgeschlossen",
+    "closureClose": "Schließen",
+    "closureGespeichert": "Monat abgeschlossen",
+    "closureNotes": "Bemerkungen",
+    "closureSpeichern": "Schließen",
+    "closureTooltip": "Schließt den aktuellen Monat ab und gibt ihn zur Abbrechnung frei."
+  },
+  "teamEditor": {
+    "name": "Name",
+    "zeitraum": "Zeitraum",
+    "zeitraumInTagen": "Zeitraum in Tagen, in dem eine Buchung rückwirkend erfolgen kann."
+  },
+  "teamPage": {
+    "einstellungenGespeichert": "Einstellungen gespeichert...",
+    "buchungenFreigegeben": "Buchungen freigegeben...",
+    "buchungGeloscht": "Buchung gelöscht...",
+    "ruckwirkendBuchen": "Rückwirkend buchen",
+    "meinTeam": "Mein Team"
+  },
+  "workItemEditor": {
+    "name": "Name",
+    "neuesArbeitspaket": "Neues Arbeitspaket",
+    "projekt": "Projekt",
+    "mitarbeiter": "Mitarbeiter",
+    "zeitraum": "Zeitraum",
+    "volumen": "Volumen",
+    "stundensatz": "Stundensatz",
+    "defaultBeschreibung": "Default Beschreibung",
+    "defaultStunden": "Default Stunden",
+    "externeReferenz": "Externe Referenz",
+    "arbeitspaket": "Arbeitspaket",
+    "nullstundenerlaubt": "0-Std Buchungen",
+    "zulassen": "zulassen",
+    "notizen": "Notizen",
+    "VolumePlaceholder": "Muss grösser oder gleich 0 sein",
+    "linkToOrder": "Link zur Bestellung",
+    "linkToOrderTitle": "Öffnen"
+  },
+  "workItemPage": {
+    "arbeitspaketGespeichert": "Arbeitspaket gespeichert...",
+    "arbeitspaketGeloscht": "Arbeitspaket gelöscht...",
+    "arbeitspaketLoschenFehler": "Arbeitspaket kann nicht gelöscht werden, es gibt noch Buchungen.",
+    "arbeitspaket": "Arbeitspaket",
+    "projekt": "Projekt",
+    "zeitraum": "Zeitraum",
+    "volumen": "Volumen",
+    "kunde": "Kunde",
+    "arbeitspakete": "Arbeitspakete",
+    "showAll": "Alle",
+    "showActive": "Aktive"
+  },
+  "bookingAlert": {
+    "beachte1": "Bitte beachte: In der letzten Woche hast du nur",
+    "beachte2": "von",
+    "beachte3": "Stunden gebucht."
+  },
+  "bookingDays": {
+    "buchungKopiert": "Buchung kopiert...",
+    "buchungenKopiert": "Buchungen kopiert...",
+    "buchungGeloscht": "Buchung gelöscht...",
+    "buchungGespeichert": "Buchung gespeichert...",
+    "neueBuchung": "Neue Buchung...",
+    "buchungEinfugen": "Buchung einfügen...",
+    "buchungenEinfugen": "Buchungen einfügen...",
+    "buchungenKopieren": "Buchungen kopieren...",
+    "buchungen": "Buchungen",
+    "kalenderwoche": "Kalenderwoche",
+    "gesamt": "Gesamt",
+    "summe": "Summe"
+  },
+  "bookingEditor": {
+    "startzeit": "Startzeit in 15 Min. Schritten",
+    "endzeit": "Endzeit in 15 Min. Schritten",
+    "pauseInMinuten": "Pause in Minuten",
+    "dauer": "Dauer",
+    "neueBuchung": "Neue Buchung",
+    "speichern": "Speichern",
+    "abbrechen": "Abbrechen",
+    "buchungKopieren": "Buchung kopieren...",
+    "loschenFrage": "Diese Buchung wirklich löschen?",
+    "buchungLoschen": "Buchung löschen...",
+    "ja": "Ja",
+    "nein": "Nein",
+    "projektUndTatigkeit": "Projekt und Tätigkeit",
+    "description": "Beschreibung der Tätigkeit"
+  },
+  "bookingHolidayAlert": {
+    "achtung": "Achtung: Der gewählte Zeitbereich enthält regionale Feiertage. Bitte wende Dich an das BackOffice, wie mit dem Feiertag verfahren wird."
+  },
+  "bookingPage": {
+    "tagesansicht": "Tagesansicht",
+    "wochenansicht": "Wochenansicht",
+    "monatsansicht": "Monatsansicht",
+    "heute": "Heute",
+    "aktuelleWoche": "Aktuelle Woche",
+    "aktuellerMonat": "Aktueller Monat",
+    "closureAbgeschlossen": "Monat {{monthName}} Abgeschlossen",
+    "closureAbgerechnet": "Monat {{monthName}} Abgeschlossen",
+    "closureOpen": "Monat {{monthName}} noch nicht abgeschlossen.",
+    "closureSpeichern": "Abschließen",
+    "closureAbbrechen": "Abbrechen",
+    "closureClose": "Abschließen",
+    "closureTooltip": "Schließt den Monat {{monthName}} ab und gibt ihn zur Abbrechnung frei.",
+    "closureNotes": "Bemerkungen",
+    "closureGespeichert": "Monat abgeschlossen",
+    "closureMonat": "Monat",
+    "closureJahr": "Jahr",
+    "bookingsTab": "Buchungen",
+    "documentsTab": "Dokumente",
+    "ClosureNotPossible": "Abschluss des Monats {{monthName}} nicht möglich. Es gibt Buchungen, die eine Freigabe durch die Verwaltung benötigen."
+  },
+  "dateRangeBrowser": {
+    "tagesansicht": "Tagesansicht",
+    "wochenansicht": "Wochenansicht",
+    "monatsansicht": "Monatsansicht",
+    "jahresansicht": "Jahressansicht",
+    "datumsauswahl": "Datumsauswahl",
+    "heute": "Heute",
+    "aktuelleWoche": "Aktuelle Woche",
+    "aktuellerMonat": "Aktueller Monat",
+    "aktuellesJahr": "Aktuelles Jahr"
+  },
+  "bookingView": {
+    "vorgesetztenGenehmigung": "Genehmigung von Verwaltung nötig."
+  },
+  "filterComponent": {
+    "filter": "Filter",
+    "alle": "Alle"
+  },
+  "filterComponentNew": {
+    "filter": "Filter",
+    "alle": "Alle"
+  },
+  "hoursEditor": {
+    "speichern": "Speichern",
+    "abbrechen": "Abbrechen",
+    "loschenFrage": "Diesen Eintrag wirklich löschen?",
+    "ja": "Ja",
+    "nein": "Nein",
+    "eintragLoschen": "Eintrag löschen...",
+    "kopieren": "Kopieren"
+  },
+  "hoursMetaData": {
+    "erstelltAm": "Erstellt am",
+    "von": "von",
+    "zuletztGeandertAm": "Zuletzt geändert am"
+  },
+  "hoursPage": {
+    "neuesElement": "Neues Element..."
+  },
+  "userPhoto": {
+    "nichtBekannt": "nicht bekannt"
+  },
+  "rules": {
+    "guest": "Guest",
+    "mitarbeiter": "Mitarbeiter",
+    "verwaltung": "Verwaltung",
+    "headOf": "HeadOf"
+  },
+  "bookingDashboard": {
+    "meineStundenMonat": "Meine Stunden in Projekten im aktuellen Monat",
+    "meineStundenJahr": "Meine Stunden im aktuellen Jahr"
+  },
+  "bookingYearDiagramViewModel": {
+    "fakturierbar": "Fakturierbar",
+    "nichtFakturierbar": "Nicht fakturierbar"
+  },
+  "activeProjectsViewModel": {
+    "meinVerbrauchtesVolumen": "Mein verbrauchtes Volumen",
+    "fremdVerbrauchtesVolumen": "Fremd verbrauchtes Volumen",
+    "restVolumen": "Restvolumen"
+  },
+  "weekWorkViewModel": {
+    "fakturierbar": "Fakturierbar",
+    "nichtFakturierbar": "Nicht fakturierbar",
+    "nichtGebucht": "Nicht gebucht"
+  },
+  "userDisplay": {
+    "esGibt": "Es gibt",
+    "buchungenFreizugeben": "Buchungen freizugeben.",
+    "rollen": "Rollen"
+  },
+  "main": {
+    "buchungenNeuAggregiert": "Buchungen neu aggregiert...",
+    "willkommen": "Willkommen in der Zeiterfassung der Tuleva AG"
+  },
+  "bookingOverview": {
+    "mitarbeiter": "Mitarbeiter",
+    "stundenabbrechnungMonat": "Gehe zur Stundenabbrechnung des letzten Monats.",
+    "stundenabbrechnungWoche": "Gehe zur Stundenabbrechnung der Woche.",
+    "woche": "Woche"
+  },
+  "bookingOverviewPage": {
+    "buchungsubersicht": "Buchungsübersicht"
+  },
+  "bookingPrintPage": {
+    "stundennachweis": "Stundennachweis",
+    "beachte": "Bitte beachte: Es gibt ausgeblendete Buchungen, die eine Genehmigung von der Verwaltung benötigen.",
+    "auswertungszeitraum": "Auswertungszeitraum",
+    "datum": "Datum",
+    "drucken": "Drucken...",
+    "buttonTooltip": "Setzt den Monat auf abgerechnet.",
+    "CompleteButton": "Abgerechnet",
+    "closureGespeichert": "Monat auf abgrechnet gesetzt."
+  },
+  "bookingPrintView": {
+    "tatigkeitsnachweis": "Tätigkeitsnachweis",
+    "unterschriftMitarbeiter": "Unterschrift Mitarbeiter",
+    "gesamt": "Gesamt",
+    "unterschriftKunde": "Unterschrift Kunde",
+    "arbeitszeit": "Arbeitszeit",
+    "kW": "KW",
+    "tag": "Tag",
+    "datum": "Datum",
+    "von": "Von",
+    "bis": "Bis",
+    "pause": "Pause (Min.)",
+    "tatigkeit": "Tätigkeit",
+    "projektArbeitspaket": "Projekt / Arbeitspaket",
+    "dauer": "Dauer (Std.)"
+  },
+  "printViewFilter": {
+    "mitarbeiter": "Mitarbeiter",
+    "kunde": "Kunde",
+    "alle": "Alle",
+    "projekt": "Projekt",
+    "arbeitspaket": "Arbeitspaket"
+  },
+  "allProjectsPage": {
+    "aktiveProjekte": "Aktive Projekte",
+    "aktiveProjektMitarbeiter": "Aktive Projekte meiner Mitarbeiter",
+    "verbrauchtesVolumen": "Verbrauchtes Volumen",
+    "restvolumen": "Restvolumen",
+    "Projekt": "Projekt",
+    "Arbeitspaket": "Arbeitspaket",
+    "Projektart": "Projektart",
+    "Gebucht": "Gebucht",
+    "Verbraucht": "Verbraucht",
+    "Volumen": "Volumen",
+    "customerName": "Kundenname"
+  },
+  "projectsViewModel": {
+    "verbrauchtesVolumen": "Verbrauchtes Volumen",
+    "restvolumen": "Restvolumen"
+  },
+  "yearOverview": {
+    "timeMaterial": "Time & Material",
+    "festpreis": "Festpreis",
+    "nichtAbrechenbar": "Nicht abrechenbar",
+    "gesamt": "Gesamt",
+    "ubersicht": "Übersicht",
+    "artDerTatigkeit": "Art der Tätigkeit",
+    "kunde": "Kunde",
+    "typ": "Typ",
+    "jan": "Jan",
+    "feb": "Feb",
+    "mar": "Mär",
+    "apr": "Apr",
+    "mai": "Mai",
+    "jun": "Jun",
+    "jul": "Jul",
+    "aug": "Aug",
+    "sep": "Sep",
+    "okt": "Okt",
+    "nov": "Nov",
+    "dez": "Dez",
+    "total": "Summe"
+  },
+  "yearOverviewPage": {
+    "jahresubersicht": "Jahresübersicht",
+    "drucken": "Drucken...",
+    "filter": "Filter"
+  },
+  "userSettingsPage": {
+    "meineEinstellungen": "Meine Einstellungen",
+    "einstellungenGespeichert": "Einstellungen gespeichert...",
+    "speichern": "Speichern..."
+  },
+  "peoplePicker": {
+    "person": "Person"
+  },
+  "yearOverviewFilter": {
+    "jahr": "Jahr",
+    "mitarbeiter": "Mitarbeiter"
+  },
+  "employeeOverviewView": {
+    "bereich": "Bereich",
+    "timeUndMaterial": "Time & Material",
+    "festpreis": "Festpreis",
+    "nichtAbrechenbar": "Nicht Abrechenbar",
+    "gesamt": "Gesamt",
+    "name": "Name"
+  },
+  "employeeOverviewPage": {
+    "header": "Mitarbeiterübersicht",
+    "beachte": "Bitte beachte: Es gibt ausgeblendete Buchungen, die eine Genehmigung von der Verwaltung benötigen.",
+    "auswertungszeitraum": "Auswertungszeitraum",
+    "datum": "Datum",
+    "showAll": "Alle",
+    "showActive": "Nur abbrechenbare"
+  },
+  "projectDetailsView": {
+    "name": "Name",
+    "tatigkeitsnachweis": "Tätigkeitsnachweis",
+    "unterschriftMitarbeiter": "Unterschrift Mitarbeiter",
+    "gesamt": "Gesamt",
+    "unterschriftKunde": "Unterschrift Kunde",
+    "arbeitszeit": "Arbeitszeit",
+    "kW": "KW",
+    "tag": "Tag",
+    "datum": "Datum",
+    "von": "Von",
+    "bis": "Bis",
+    "pause": "Pause (Min.)",
+    "tatigkeit": "Tätigkeit",
+    "projektArbeitspaket": "Projekt / Arbeitspaket",
+    "dauer": "Dauer (Std.)",
+    "backButton": "Zurück zu allen Projekten"
+  },
+  "helpPage": {
+    "caption": "Hilfe",
+    "version": "Version"
+  },
+  "editor": {
+    "ungespeichert": "Es gibt noch ungespeicherte Daten. Seite trotzdem verlassen...?"
+  },
+  "abgeschlossene": "Abgeschlossene",
+  "closuresEditor": {
+    "offeneFreigaben": "offene Freigaben"
+  },
+  "bookingDocuments": {
+    "uploadText": "Zum Upload hier klicken oder Dateien hier ablegen",
+    "uploadHint": "Es können einzelne oder mehrere Dateien hochgeladen werden. Bitte nur buchungsrelevante Dokumente hochladen.",
+    "DeleteConfirm": "Die Datei löschen?",
+    "OkText": "Ja",
+    "CancelText": "Nein",
+    "NameHeader": "Name",
+    "SizeHeader": "Größe",
+    "DateHeader": "Datum",
+    "deleteSuccess": "Datei gelöscht.",
+    "deleteError": "Fehler beim löschen",
+    "uploadSuccess": "Datei erfolgreich hochgeladen.",
+    "uploadError": "fehler beim upload.",
+    "downloadError": "Fehler beim Download",
+    "downloadTooltip": "Klick für Download.",
+    "deleteTooltip": "Datei löschen",
+    "uploadButton": "Klick für Upload"
+  },
+  "employeeProjectsPage": {
+    "header": "Mitarbeiterprojekte",
+    "beachte": "Bitte beachte: Es gibt ausgeblendete Buchungen, die eine Genehmigung von der Verwaltung benötigen.",
+    "auswertungszeitraum": "Auswertungszeitraum",
+    "datum": "Datum",
+    "showAll": "Alle",
+    "showActive": "Nur abbrechenbare"
+  }
+}
