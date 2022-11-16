@@ -35,6 +35,6 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/Tuleva-AG"
+    "registry": "https://npm.pkg.github.com"
   }
 }
