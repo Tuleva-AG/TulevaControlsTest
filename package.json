@@ -1,6 +1,6 @@
 {
   "name": "@tuleva-ag/tuleva-controls-test",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "description": "TulevaControlsTest",
   "scripts": {
     "rollup": "rollup -c"
@@ -24,6 +24,7 @@
     "js-tokens": "^4.0.0",
     "loose-envify": "^1.4.0",
     "moment": "^2.29.4",
+    "i18next": "^19.8.3",
     "react-i18next": "^12.0.0",
     "tslib": "^2.4.1"
   },
