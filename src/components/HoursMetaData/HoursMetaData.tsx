@@ -1,7 +1,7 @@
 import moment from "moment";
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { IBaseEntity } from "../types/baseEntity";
+import { IBaseEntity } from "../../types/baseEntity";
 import styles from "./hoursMetaData.module.scss";
 
 export interface IHoursMetaDataProps {
