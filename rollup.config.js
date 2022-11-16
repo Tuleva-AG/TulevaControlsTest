@@ -2,6 +2,7 @@ import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import dts from "rollup-plugin-dts";
+import external from "rollup-plugin-peer-deps-external";
 import sass from "rollup-plugin-sass";
 
 export default [
@@ -11,20 +12,16 @@ export default [
       {
         file: "dist/cjs/index.js",
         format: "cjs",
-        sourcemap: true,
+        sourcemap: false,
       },
       {
         file: "dist/esm/index.js",
         format: "esm",
-        sourcemap: true,
+        sourcemap: false,
+        name: "@tuleva-ag/tuleva-controls-test",
       },
     ],
-    plugins: [
-      resolve(),
-      commonjs(),
-      sass(),
-      typescript({ tsconfig: "./tsconfig.json" }),
-    ],
+    plugins: [external(), resolve(), commonjs(), sass(), typescript({ tsconfig: "./tsconfig.json" })],
   },
   {
     input: "dist/esm/index.d.ts",
