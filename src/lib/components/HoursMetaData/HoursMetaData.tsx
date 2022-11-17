@@ -1,31 +1,39 @@
 import moment from "moment";
 import React from "react";
-import { useTranslation } from "react-i18next";
 import { IBaseEntity } from "../../types/baseEntity";
 import styles from "./hoursMetaData.module.scss";
 
 export interface IHoursMetaDataProps {
   item: IBaseEntity;
+  labelCreated?: string;
+  labelModified?: string;
+  labelCreatedby?: string;
+  labelModifiedby?: string;
 }
 
 const HoursMetaData: React.FC<IHoursMetaDataProps> = (
   props: IHoursMetaDataProps
 ) => {
-  const { t } = useTranslation();
+
+  let labelCreated = props.labelCreated ? props.labelCreated : 'Erstellt am: ';
+  let labelModified = props.labelModified ? props.labelModified : 'Geändert am: ';
+  let labelCreatedby = props.labelCreatedby ? props.labelCreatedby : 'von: ';
+  let labelModifiedby = props.labelModifiedby ? props.labelModifiedby : 'von: ';
+
   return (
     <div className={styles.labeledControl}>
       <div className={styles.medaDataTable}>
         <div className={styles.medaDataRow}>
           <div className={styles.medaDataLabel}>
-            {t("hoursMetaData.erstelltAm")}{" "}
-            {moment(props.item.created).format("lll")} {t("hoursMetaData.von")}{" "}
+            {labelCreated}
+            {moment(props.item.created).format("lll")} {labelCreatedby}
             {props.item.createdBy?.name}
           </div>
         </div>
         <div className={styles.medaDataRow}>
           <div>
-            {t("hoursMetaData.zuletztGeandertAm")}{" "}
-            {moment(props.item.edited).format("lll")} {t("hoursMetaData.von")}{" "}
+            {labelModified}
+            {moment(props.item.edited).format("lll")} {labelModifiedby}
             {props.item.editedBy?.name}
           </div>
         </div>
