@@ -21,12 +21,19 @@ export default [
         name: "@tuleva-ag/tuleva-controls-test",
       },
     ],
-    plugins: [external(), resolve(), commonjs(), sass(), typescript({ tsconfig: "./tsconfig.json" })],
+    plugins: [
+      external(),
+      resolve(),
+      commonjs(),
+      sass(),
+      typescript({ tsconfig: "./tsconfig.json" }),
+    ],
   },
   {
     input: "dist/esm/index.d.ts",
     output: [{ file: "dist/index.d.ts", format: "esm" }],
     plugins: [dts()],
     external: [/\.(css|less|scss)$/],
+    external: ["react", "react-dom"],
   },
 ];
