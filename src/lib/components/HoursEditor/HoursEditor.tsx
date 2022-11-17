@@ -1,5 +1,5 @@
-import "antd/dist/antd.css";
-import "moment/locale/de";
+// import "antd/dist/antd.css";
+// import "moment/locale/de";
 
 import {
   CheckCircleTwoTone,
@@ -16,6 +16,10 @@ import styles from "./hoursEditor.module.scss";
 import { useEditorContext } from "../hoursSharedContext";
 import HoursMetaData from "../HoursMetaData/HoursMetaData";
 
+export type PartProps = {
+  children: React.ReactNode;
+}
+
 interface IHoursEditorProps {
   item: IBaseEntity;
   onSave: (item: IBaseEntity) => void;
@@ -29,7 +33,7 @@ interface IHoursEditorProps {
   hideMetaData?: boolean;
   onExit: (item: IBaseEntity) => void;
 
-  editor?: React.ReactNode;
+  editor?: React.FC<PartProps>;
   onRenderEdit: (item: IBaseEntity) => React.ReactNode;
   onRenderView: (item: IBaseEntity) => React.ReactNode;
 
@@ -250,7 +254,7 @@ const HoursEditor: React.FC<IHoursEditorProps> = (props) => {
                     size="middle"
                     title={labelDeleteEntry}
                     icon={<DeleteOutlined />}
-                    // disabled={!deletePerms}
+                  // disabled={!deletePerms}
                   />
                 </Popconfirm>
               )}
