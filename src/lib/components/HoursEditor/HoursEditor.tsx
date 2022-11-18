@@ -18,7 +18,7 @@ import HoursMetaData from "../HoursMetaData/HoursMetaData";
 
 export type PartProps = {
   children: React.ReactNode;
-}
+};
 
 interface IHoursEditorProps {
   item: IBaseEntity;
@@ -39,6 +39,9 @@ interface IHoursEditorProps {
 
   //   deleteRights: Rights;  --- todo
   //   editRights: Rights;    --- todo
+
+  deleteRights?: boolean;
+  editRights?: boolean;
 
   showAsModal?: boolean;
   stayInEditMode?: boolean;
@@ -65,6 +68,17 @@ const HoursEditor: React.FC<IHoursEditorProps> = (props) => {
   //   const deletePerms = useHasPermissions(props.deleteRights);
   //   const editPerms = useHasPermissions(props.editRights);
 
+  let deletePerms = true;
+  if (props.deleteRights != undefined) {
+    deletePerms = props.deleteRights;
+  }
+  let editPerms = true;
+  if (props.editRights != undefined) {
+    editPerms = props.editRights;
+  }
+  // let deletePerms = props.deleteRights ? props.deleteRights : true;
+  // let editPerms = props.editRights ? props.editRights : true;
+
   let labelSave = props.labelSave ? props.labelSave : "Speichern";
   let labelCancel = props.labelCancel ? props.labelCancel : "Abbrechen";
   let labelConfirmDelete = props.labelConfirmDelete
@@ -79,8 +93,7 @@ const HoursEditor: React.FC<IHoursEditorProps> = (props) => {
 
   const toggleEditMode = (e: any) => {
     if (!props.stayInEditMode) {
-      //   setEditMode(!editMode && editPerms);
-      setEditMode(!editMode);
+      setEditMode(!editMode && editPerms);
     }
     if (itemState.isDirty) {
       props.onSave(itemState);
@@ -234,7 +247,6 @@ const HoursEditor: React.FC<IHoursEditorProps> = (props) => {
                   size="middle"
                   title={labelCopy}
                   icon={<CopyOutlined />}
-                  // disabled={!createPerms}
                   onClick={() =>
                     props.onCopyItem && props.onCopyItem(props.item.id)
                   }
@@ -254,7 +266,7 @@ const HoursEditor: React.FC<IHoursEditorProps> = (props) => {
                     size="middle"
                     title={labelDeleteEntry}
                     icon={<DeleteOutlined />}
-                  // disabled={!deletePerms}
+                    disabled={!deletePerms}
                   />
                 </Popconfirm>
               )}
